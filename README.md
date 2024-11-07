@@ -1,4 +1,6 @@
-Ultimate CommonUI Menu System (UCMS) is a robust and highly customizable game menu framework designed for Unreal Engine, offering a feature-rich solution for any game project. UCMS includes an extensive suite of options and settings, making it ideal for both basic and advanced users. It provides a main menu, options menu, character selection, and pause menu, all built with user experience in mind.
+Gameplay User Interface
+
+Gameplay user interface is a robust and highly customizable game menu framework designed for Unreal Engine, offering a feature-rich solution for any game project. UCMS includes an extensive suite of options and settings, making it ideal for both basic and advanced users. It provides a main menu, options menu, character selection, and pause menu, all built with user experience in mind.
 
 The system includes comprehensive settings for graphics (TSR/DLSS/FSR/XeSS), audio, input mapping, and display, with a details panel that explains each setting for easy navigation. UCMS is optimized for performance, leveraging minimal canvas panels to ensure efficient resource use. It also features full controller and keyboard support, as well as partial localization for French users.
 
