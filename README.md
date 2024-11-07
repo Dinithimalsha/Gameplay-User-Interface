@@ -1,62 +1,9 @@
-UCMS - Ultimate CommonUI Menu System
+Ultimate CommonUI Menu System (UCMS) is a robust and highly customizable game menu framework designed for Unreal Engine, offering a feature-rich solution for any game project. UCMS includes an extensive suite of options and settings, making it ideal for both basic and advanced users. It provides a main menu, options menu, character selection, and pause menu, all built with user experience in mind.
 
-Features
-Comprehensive Game Menu System: A fully functional game menu with extensive settings and options.
-Prompt System: User-friendly prompts for streamlined interaction.
-Advanced Options Menu: Includes a vast array of settings for graphics, display, TSR/DLSS/FSR/XeSS, audio (music, ambient, SFX, voice, etc.), input mapping, and more. Each setting follows UI guidelines and caters to different user preferences.
-Details Panel: Provides detailed information on hovered settings. (Currently under development as information is extensive.)
-Save and Reapply System: Settings are saved on exit and reloaded on game start or level change.
-Main Menu with Immersive Background: Includes a dynamic background map and camera movements.
-Animated Character Selection: A visually engaging character selection screen.
-Pause Menu: Accessible via "²" or "Escape" in standalone mode.
-Full Controller and Keyboard Support: Navigate menus with ease using controllers or keyboard arrows.
-Simple Notification System: Offers straightforward, in-game notifications.
-Partial French Localization: Partially localized in French, with the flexibility for additional translations.
-Optimized Performance: Uses minimal canvas panels to enhance performance.
-Easy Integration: Ready to integrate into your project. For setup details, visit the Wiki.
-Try It Yourself
-Experience UCMS firsthand! Regular releases are available with pre-packaged versions—no need to have Unreal Engine installed. Just download, extract, and run the .exe. Additionally, a build of the City Sample is in progress, showcasing UCMS in a real game setting, complete with gameplay features. Try it out by downloading the Google Drive link from the latest Release.
+The system includes comprehensive settings for graphics (TSR/DLSS/FSR/XeSS), audio, input mapping, and display, with a details panel that explains each setting for easy navigation. UCMS is optimized for performance, leveraging minimal canvas panels to ensure efficient resource use. It also features full controller and keyboard support, as well as partial localization for French users.
 
-Project Goal
-The goal of UCMS is to offer a highly customizable, complete game menu system. It provides extensive options, from graphics settings to a beautiful main menu, all designed to save development time. This Blueprint-based system is open to contributions, so users can enhance it further to meet community needs. Check out the Wiki for more information.
+UCMS is open-source and community-driven, allowing developers to contribute, customize, and integrate it into their own projects with ease. It includes a save system to retain settings between sessions, and a beautiful animated character selection screen to enhance immersion. Whether you’re creating a simple indie game or a more complex project, UCMS is designed to save you hours of development time while delivering a polished user interface that enhances the player experience.
 
-Branches
-Here are the current branches:
+With a commitment to ongoing improvements, UCMS offers different branches for specific versions of Unreal Engine and experimental features, allowing developers to use the version best suited to their needs. The framework also supports several popular plugins, such as NVIDIA DLSS, AMD FSR, Intel XeSS, and more, making it easy to deliver high-quality graphics and performance.
 
-main: Uses Unreal Engine 5.4, suitable for most projects.
-5.3: For Unreal Engine 5.3 users, though updates have stopped for this branch.
-NvRTX: Includes additional settings from the NvRTX branch (Unreal Engine 5.3).
-Lyra: Styled like the Lyra menu, using Unreal Engine 5.4.
-Enhanced Inputs: Experimental branch for Enhanced Inputs with CommonUI (Unreal Engine 5.3).
-Plugins Used
-UCMS utilizes several external plugins, some of which are bundled in the project files:
-
-Name	Description
-NVIDIA DLSS 3.7	AI-driven rendering for enhanced frame rates and image quality.
-AMD FidelityFX Super Resolution 3.1	Upscaling technology for smoother animations and improved frame pacing.
-Intel Xe Super Sampling	AI-based upscaling for higher frame rates with minimal quality loss.
-Async Loading Screen	Allows for customized loading screens with minimal setup.
-Integrated Plugins
-Common UI
-Cine Camera Rigs
-Steam Controller
-Accessing the Menu
-Main Menu: Automatically launched at startup.
-Pause Menu: Access via "²", "Escape," or "Start/Options" on a controller.
-Usage Terms
-UCMS is free to use in your projects.
-Credit required: Please attribute the base UI as "UCMS Base UI" or similar.
-Recommendations
-For the best experience, run UCMS in "Standalone Game" mode. This minimizes the risk of engine crashes during testing and provides a more accurate player experience.
-
-Known Bugs
-No known issues currently.
-
-Roadmap
-Enhance the Enhanced Input system implementation.
-Add setting comparison images and customized description widgets where needed.
-Address existing bugs and user feedback.
-Potential C++ Enhancements
-Implement CommonBoundActionBar actions directly.
-Improve button style transitions for keyboard/controller navigation.
-Expand the prompt system and automate tab views for a more streamlined experience.
+This project is free to use, with credit to the UCMS project appreciated. It’s a fantastic solution for developers looking to elevate their game’s UI, with all the functionality and flexibility needed for professional-level interfaces.
