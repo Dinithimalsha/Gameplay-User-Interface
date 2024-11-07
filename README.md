@@ -1,5 +1,4 @@
 UCMS - Ultimate CommonUI Menu System
-<img src="https://i.imgur.com/uzxaYqd.png" width=49%> <img src="https://i.imgur.com/afaZQmT.png" width=49%>
 
 Features
 Comprehensive Game Menu System: A fully functional game menu with extensive settings and options.
